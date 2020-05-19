@@ -1,2 +1,2 @@
 # stopwatch
-Simple stopwatch made with JQuery.
+Simple stopwatch app made with JQuery.
