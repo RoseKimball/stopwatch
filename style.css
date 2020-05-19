@@ -1,0 +1,67 @@
+body{
+    background-image: url(images/beach.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+#controlsContainer{
+    margin-bottom: 100px;
+}
+
+.btn-color-2{
+    background-color: rgba(255, 224, 144, 0.7);
+    color: white;
+    /* padding: 10px 70px; */
+    width: 10vw;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 1.3px;
+}
+
+.btn-color-2:hover{
+    background-color: #FCFC5F;
+    color: black;
+}
+
+.btn-color-2:active{
+   background-color: #FCFC5F;
+   color: black;
+}
+
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.lapTimeTitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.lapTime{
+    font-size: 2em;
+    float: right;
+}
